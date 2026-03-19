@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3e52620c53f332109a3131f0a0490ef3" extends="sys_user" label="Colaborador" max_length="40" name="x_1936461_atestado_colaborador" type="collection">
+        <element label="Data de nascimento" mandatory="true" max_length="40" name="data_de_nascimento" type="glide_date"/>
+        <element label="Idade" max_length="40" name="idade" read_only="true" type="integer"/>
+    </element>
+</database>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3cd24c6053fb32109a3131f0a0490e93" extends="task" label="Atestados" max_length="40" name="x_1936461_atestado_atestados" type="collection">
+        <element label="Anexo" max_length="40" name="anexo" type="file_attachment"/>
+        <element label="Colaborador" mandatory="true" max_length="32" name="colaborador" reference="x_1936461_atestado_colaborador" type="reference"/>
+    </element>
+</database>
