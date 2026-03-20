@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="name" label="Nome" language="pt-br" table="x_1936461_atestado_colaborador">
+    <sys_documentation element="" label="supervisor" language="en" table="x_1936461_atestado_supervisor">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>name</element>
+            <element/>
             <help/>
             <hint/>
-            <label>Nome</label>
-            <language>pt-br</language>
-            <name>x_1936461_atestado_colaborador</name>
-            <plural>Nomes</plural>
+            <label>supervisor</label>
+            <language>en</language>
+            <name>x_1936461_atestado_supervisor</name>
+            <plural>supervisors</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-03-19 12:45:44</sys_created_on>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_name>Nome</sys_name>
+            <sys_created_on>2026-03-19 19:07:53</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>supervisor</sys_name>
             <sys_package display_value="atestado" source="x_1936461_atestado">110796c053b332109a3131f0a0490e7f</sys_package>
             <sys_policy/>
             <sys_scope display_value="atestado">110796c053b332109a3131f0a0490e7f</sys_scope>
-            <sys_update_name>sys_documentation_x_1936461_atestado_colaborador_name_pt-br</sys_update_name>
+            <sys_update_name>sys_documentation_x_1936461_atestado_supervisor__en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-03-19 19:13:29</sys_updated_on>
+            <sys_updated_on>2026-03-19 19:07:53</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

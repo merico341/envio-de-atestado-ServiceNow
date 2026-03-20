@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ff27ace053fb32109a3131f0a0490eb1" extends="sys_user" label="supervisor" max_length="40" name="x_1936461_atestado_supervisor" type="collection"/>
+</database>
