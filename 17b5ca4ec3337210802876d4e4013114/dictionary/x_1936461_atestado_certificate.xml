@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="76c88e06c3737210802876d4e401311a" extends="task" label="Certificate" max_length="40" name="x_1936461_atestado_certificate" type="collection">
+        <element label="Date_absence" mandatory="true" max_length="40" name="date_absence" type="glide_date"/>
+        <element label="Employee" mandatory="true" max_length="32" name="employee" reference="x_1936461_atestado_employee" type="reference"/>
+        <element label="Reason_absence" mandatory="true" max_length="400" name="reason_absence" type="string"/>
+    </element>
+</database>
