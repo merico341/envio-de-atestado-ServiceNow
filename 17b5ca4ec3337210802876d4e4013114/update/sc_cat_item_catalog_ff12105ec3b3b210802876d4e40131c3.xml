@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Send Certificate">37125c1ec3b3b210802876d4e40131e5</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-25 04:02:06</sys_created_on>
+        <sys_id>ff12105ec3b3b210802876d4e40131c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Send Certificate</sys_name>
+        <sys_package display_value="atestado" source="x_1936461_atestado">17b5ca4ec3337210802876d4e4013114</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="atestado">17b5ca4ec3337210802876d4e4013114</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_ff12105ec3b3b210802876d4e40131c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-25 04:02:06</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>
