@@ -32,7 +32,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Send Certificate</name>
+        <name>Sending Certificate</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -81,19 +81,8 @@
 * Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
 * Avoid `current.setAbortAction()` and generate a separate record
 * Use `producer.var1` to access variables
-*/
-/*
-current.opened_by = gs.getUserID();
-if (gs.hasRole == "x_1936461_atestado.employee_user") {
-	current.employee = gs.getUserID();
-}
-
-*/
-current.u_user = gs.getUserID();
-current.opened_by = gs.getUserID();
-current.requested_for = gs.getUserID();
-]]></script>
-        <short_description/>
+*/]]></script>
+        <short_description>Send the medical certificate to justify your absence</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state>published</state>
@@ -101,14 +90,14 @@ current.requested_for = gs.getUserID();
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-24 23:38:44</sys_created_on>
         <sys_id>b1751bcec3bb7210802876d4e401316c</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Send Certificate</sys_name>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Sending Certificate</sys_name>
         <sys_package display_value="atestado" source="x_1936461_atestado">17b5ca4ec3337210802876d4e4013114</sys_package>
         <sys_policy/>
         <sys_scope display_value="atestado">17b5ca4ec3337210802876d4e4013114</sys_scope>
         <sys_update_name>sc_cat_item_producer_b1751bcec3bb7210802876d4e401316c</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-25 03:48:37</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-03-25 14:17:21</sys_updated_on>
         <table_name>x_1936461_atestado_certificate</table_name>
         <taxonomy_topic/>
         <template/>
@@ -116,7 +105,7 @@ current.requested_for = gs.getUserID();
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>10</version>
+        <version>15</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
