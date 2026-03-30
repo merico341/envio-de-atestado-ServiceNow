@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4568cec2c3737210802876d4e4013163" extends="sys_user" label="Manager" max_length="40" name="x_1936461_atestado_manager" type="collection"/>
+</database>

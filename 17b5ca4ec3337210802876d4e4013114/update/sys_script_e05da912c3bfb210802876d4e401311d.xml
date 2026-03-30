@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1936461_atestado_employee</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>EA Group Assignment Employee</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+    var groupSysId = 'e12f4e82c3b37210802876d4e401311a';
+
+    var gr = new GlideRecord('sys_user_grmember');
+    gr.addQuery('user', current.sys_id);
+    gr.addQuery('group', groupSysId);
+    gr.query();
+
+    if (!gr.hasNext()) {
+        var newMember = new GlideRecord('sys_user_grmember');
+        newMember.initialize();
+        newMember.user = current.sys_id;
+        newMember.group = groupSysId;
+        newMember.insert();
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-25 10:43:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e05da912c3bfb210802876d4e401311d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>EA Group Assignment Employee</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="atestado" source="x_1936461_atestado">17b5ca4ec3337210802876d4e4013114</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="atestado">17b5ca4ec3337210802876d4e4013114</sys_scope>
+        <sys_update_name>sys_script_e05da912c3bfb210802876d4e401311d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-25 12:08:21</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=e05da912c3bfb210802876d4e401311d"/>
+</record_update>

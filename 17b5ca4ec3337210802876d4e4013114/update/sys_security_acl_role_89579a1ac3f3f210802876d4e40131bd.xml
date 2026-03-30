@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-25 13:44:31</sys_created_on>
+        <sys_id>89579a1ac3f3f210802876d4e40131bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1936461_atestado_employee.x_1936461_atestado.employee</sys_name>
+        <sys_package display_value="atestado" source="x_1936461_atestado">17b5ca4ec3337210802876d4e4013114</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="atestado">17b5ca4ec3337210802876d4e4013114</sys_scope>
+        <sys_security_acl display_value="x_1936461_atestado_employee">84607b46c3bf7210802876d4e401317b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_89579a1ac3f3f210802876d4e40131bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-25 13:44:31</sys_updated_on>
+        <sys_user_role display_value="x_1936461_atestado.employee" name="x_1936461_atestado.employee">0d9fcac2c3b37210802876d4e4013123</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
